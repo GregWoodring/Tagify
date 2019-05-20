@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mainElem{
+    height: 100vh;
+    /* border: 2px solid red; */
+    flex-grow: 1;
+    background-color: #191414;
+
+}
+
+
+
+.listItem{
+    color: #B3B3B3;
+    height: 1em;
+    display: flex;
+    margin-top: 1.5em
+}
+
+.listItem > div{
+    padding: 0 1em 0 2em;
+}
+
+.listItem >p:hover{
+    color: #fff;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 15em;
+}
+
+#body{
+    flex-grow: 4;
+    /* background-image: linear-gradient(#B3B3B3, #191414, #191414); */
+    overflow: auto;
+    background-color: #181818;
+}
+
+#infoside{
+    
+}
+
+/*--------------------------------- logo-css ---------------------------------------*/
+.playListHelperIcon{
+    /* margin-right: .25em;  */
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    border: 2px #B3B3B3 solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #191414;
+    display: inline-block;
+    position: absolute;
+    top: .25em;
+    left: 0;
+    margin: 0;
+    box-shadow: 1px 1px 100px #b3b3b3 
+    /* height: 2em; 
+    width: 5em; */
+}
+
+.playListHelperLogo{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: -.2em;
+    left: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------------End Logo CSS--------------------------------------*/
+
+.bodyInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(#B3B3B3, #181818); */
+    /* height: 20%; */
+}
+
+.bodyInfo > img{
+    flex-grow: 0;
+    width: 300px;
+    margin: 2em;
+    box-shadow: 0 -100px 1000px #B3B3B3 
+}
+
+.bodyInfo > div {
+    color: #fff;
+}
+
+.songListItem{
+    display: flex;
+    color: #B3B3B3;
+    border-bottom: 1px solid #B3B3B3;
+    /* border-bottom: 1px solid #B3B3B3; */
+    /* background-color: #181818; */
+    padding: .5em;
+    margin: 0 4em; 
+    list-style: none;
+    /* position: relative; */
+    justify-content: space-between;
+}
+
+.songListItem:hover{
+    background-color: #282828;
+    color: #fff;
+}
+
+.songListItem > div{
+    /* display: inline-block;
+    position: relative; */
+}
+
+.songItemName {
+    /* left: 0;*/
+    width: 30%; 
+}
+
+.songItemArtist {
+    /* text-align: left; */
+    width: 30%;
+    
+}
+.songItemArtist > p{
+    text-align: left;
+}
+
+.songItemPlayed{
+    /* float: right; */
+    /* justify-content: flex-end; */
+    width: 30%
+}
+
+.songItemPlayed > p{
+    text-align: right;
+}

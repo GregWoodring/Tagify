@@ -1,0 +1,166 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sidebar{
+    height: 100vh;
+     max-width: 15vw; 
+    min-width: 12rem; 
+    /* width: calc((1/3) * 100%);  */
+    border-right: 2px solid grey;
+    background-color: #191414;
+    /* color: #B3B3B3; */
+
+    display: inline-block;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+/* #menu{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+
+} */
+
+.tagify-list{
+    margin-bottom: 1vh;
+    border-bottom: #B3B3B3 solid 2px;
+}
+
+.tagify-list > li{
+    color: #B3B3B3;
+    /* border-bottom: 2px solid grey; */
+    padding: 7px 20px;
+}
+
+.tagify-list > li:hover{
+    color: #fff;
+}
+
+.icon{
+    color:"#fff";
+    padding-right: 10px;
+}
+
+.spotify-icon{
+    height: 1em;
+    width: 1em;
+    /* margin-right: 5px; */
+}
+
+#sidebar-header{
+    /* background-image: linear-gradient(#B3B3B3, #191414); */
+}
+
+#sidebar-header > p{
+    color: #B3B3B3;
+    margin-top: .5em;
+}
+
+#prelogotext{
+    margin-bottom: 1em;
+    font-size: 1em;
+    position: relative;
+}
+
+/* .playListHelperLogo{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: -.2em;
+    left: 1.75em;
+} */
+
+/* .playListHelperIcon{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    border: 2px #B3B3B3 solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #191414;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: -.75em;
+
+} */
+
+.logo-container{
+    position: relative;
+    height: 4em;
+    width: auto;
+    left: 1em;
+}
+
+.logo-subtext{
+    position: relative;
+    height: 6em;
+    width: auto;
+}
+
+.logo-subtext > h4{
+    position: absolute;
+    /* font-size: 1em; */
+    top: 2.5em;
+    color: #fff;
+    left: 1.4em;
+    /* color: #1db954; */
+    font-size: .75em;
+    /* text-decoration-color: ; */
+    /* text-decoration: underline #1db954; */
+}
+
+/* .logo-subtext > h4::first-letter{
+    color: #1ed760;
+    font-size: 1.1em;
+} */
+/* .logo-subtext > h4 > span{
+    color: #1ed760;
+    font-size: 1.15em;
+} */
+
+.logo-subtext > p{
+    position: absolute;
+    font-size: .75em;
+    color: #fff;
+    top: .5em;
+    left: 6.35em;
+    text-decoration: #B3B3B3 underline;
+}
+
+.spotify-logo{
+    min-width: 70px;
+    max-width: 10em;
+    max-height: 2em;
+    position: absolute;
+    left: 4.45em;
+    top: 3.25em;
+}
+
+#main-content{
+    width: 80vw;
+    background-image: linear-gradient(#B3B3B3, #191414); 
+    height: 100vh;
+    max-width:100vw;
+    /* background-color: red; */
+}
+
+/* .column{
+    display: flex;
+    height: 100vh;
+    min-width: 12rem;
+    max-width: 100vw;
+    background-color: blue;
+} */
+

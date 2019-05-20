@@ -1,0 +1,105 @@
+.tagifyButton{
+    /* height: 4em; */
+    padding: 7px 22px;
+    width: 10em;
+    /* border: green solid 2px; */
+    background-color: #1db954;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    font-weight: var(--glue-font-weight-normal);
+    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+    border: none;
+    font-size: 11px;
+}
+
+.tagifyAltButton{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(24,24,24,0.7)
+}
+
+.tagifySmallButton{
+    font-size: 11px;
+}
+
+.tagifySmallButton:hover{
+    /* background-color: #1ed760; */
+    /* font-size: 12px;  */
+    transition: none 33ms cubic-bezier(.3,0,0,1);
+}
+
+.tagifyMediumButton{
+    font-size: 16px;
+}
+
+.tagifyMediumButton:hover{
+    /* background-color: #1ed760; */
+    /* font-size: 18px; */
+    transition: none 33ms cubic-bezier(.3,0,0,1);
+}
+
+.tagifyLargeButton{
+    font-size: 24px;
+}
+
+.tagifyLargeButton:hover{
+    /* background-color: #1ed760; */
+    /* font-size: 26px; */
+    transition: none 33ms cubic-bezier(.3,0,0,1);
+}
+
+.tagifyButton:hover{
+    background-color: #1ed760;
+    transform: scale(1.05);
+}
+
+.tagifyAltButton:hover{
+    background-color: rgba(24,24,24,0.7);
+}
+
+.dividers{
+    margin: 20px;
+}
+
+/* html{
+    background-color: #191414;
+} */
+
+
+/*---------------------------------Logo-----------------------------------*/
+
+/* .playListHelperLogo{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: -.2em;
+    left: 2.5em;
+    padding: 0;
+    margin: 0;
+} */
+
+/* .playListHelperIcon{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    border: 2px #B3B3B3 solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #191414;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+
+} */
+
+.logo-container{
+    position: relative;
+    height: 4em;
+    width: auto;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0;
+    margin: 0;
+}
