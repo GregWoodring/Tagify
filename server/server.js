@@ -19,7 +19,8 @@ var app = module.exports = express();
 let connectionString = secret.connectionString;
 massive(connectionString).then(db => {
     app.set('db', db)
-    module.exports = db
+    // console.log(db)
+    module.exports.db = db
 
     const passportSpotify = require('./config/passport-setup');
 

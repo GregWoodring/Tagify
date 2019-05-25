@@ -1,18 +1,14 @@
 const passport = require('passport');
 const SpotifyStrategy = require('passport-spotify').Strategy;
 const secret = require('../secret');
-let db = require('../server');
+let {db} = require('../server');
 
 passport.serializeUser((userid, done) => {
     done(null, userid);
 })
-// console.log(req.app)
 passport.deserializeUser((userid, done) => {
-    // let userObj;
-
-    // console.log(db)
+    // console.log(db.get_user);
     db.get_user(userid).then(user => {
-        console.log(user);
         done(null, user)})
     ;
 })
@@ -28,7 +24,6 @@ passport.use(new SpotifyStrategy({
         //Passport callback function
         
         //creating/updating the user
-        // console.log(db);
         db.create_or_update_user(
             [profile.id ? profile.id : null
             , profile.displayName ? profile.displayName : null
